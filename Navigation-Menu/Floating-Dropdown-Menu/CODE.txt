@@ -1,0 +1,163 @@
+<style>
+
+#wctopdropcont{
+  width:100%;
+  height:40px;
+  display:block;
+  padding:0;
+  margin:0 0 22px 0;
+
+ z-index:100;
+  top:0px;
+left:0px;
+ position:fixed;
+    box-shadow:2px 2px 5px  #444444;
+-moz-box-box-shadow:2px 2px 5px  #444444;
+-web-kit-box-shadow:2px 2px 5px  #444444;
+-goog-ms-box-shadow:2px 2px 5px  #444444;
+background:#180000;
+}
+
+#wctopdropnav{
+  float:left;
+  width:700px;
+  height:40px;
+  display:block;
+  padding:0;
+  margin-left:40px;
+}
+
+#wctopdropnav ul{
+  float:left;
+  margin:0;
+  padding:0;
+
+}
+
+#wctopdropnav li{
+  float:left;
+  list-style:none;
+  line-height:40px;
+  margin:0;
+  padding:0
+background:#180000;
+
+}
+
+#wctopdropnav li a, #wctopdropnav li a:link{
+  color:#fff;
+  display:block;
+  margin:0;
+font:16px georgia, verdana;
+  padding:10px;
+  text-decoration:none;
+}
+
+#wctopdropnav li a:hover, #wctopdropnav li a:active, #wctopdropnav .current_page_item a  {
+  color:#fff;
+  padding:10px;
+background: rgb(180,223,91); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(180,223,91,1) 0%, rgba(180,223,91,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(180,223,91,1)), color-stop(100%,rgba(180,223,91,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4df5b', endColorstr='#b4df5b',GradientType=0 ); /* IE6-9 */
+}
+#wctopdropnav li li a, #wctopdropnav li li a:link, #wctopdropnav li li a:visited{
+  font-size: 12px;
+background:#180000;
+  color: #fff;
+  width: 150px;
+  margin: 0;
+  padding: 0px 10px;
+  line-height:30px;
+  position: relative;
+}
+
+#wctopdropnav li li a:hover, #wctopdropnav li li a:active {
+  color: #fff;
+background: rgb(180,223,91); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(180,223,91,1) 0%, rgba(180,223,91,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(180,223,91,1)), color-stop(100%,rgba(180,223,91,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(180,223,91,1) 0%,rgba(180,223,91,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4df5b', endColorstr='#b4df5b',GradientType=0 ); /* IE6-9 */
+}
+
+#wctopdropnav li ul{
+  z-index:9999;
+  position:absolute;
+  left:-999em;
+  height:auto;
+  width:170px;
+  margin:0px;
+  padding:0px
+}
+
+#wctopdropnav li:hover ul, #wctopdropnav li li:hover ul, #wctopdropnav li li li:hover ul, #wctopdropnav li.sfhover ul, #topwctopdropnav li li.sfhover ul, #topwctopdropnav li li li.sfhover ul{
+  left:auto
+}
+
+#wctopdropnav li:hover, #wctopdropnav li.sfhover{
+  position:static
+}
+#wctopdropsoc {
+  float:right;
+  width:220px;
+  padding:0px 0px ;
+  margin:9px 10px 0px 0px;
+   }
+#wctopdropsoc img
+{
+margin-left:5px;
+margin-top:-2px;
+height:26px;
+border:none;
+}
+
+</style>
+
+  <div id='wctopdropcont'>
+     <div id='wctopdropnav'>
+         <ul>
+           <li><a href=''>Home</a></li>
+           <li><a href='#'>About us</a></li>    
+           
+           <li><a href='#'>Tools</a>
+               <ul>
+                  <li><a href='#'>Item 1</a></li>
+                  <li><a href='#'>Item 2</a></li>
+                  <li><a href='#'>Item 3</a></li>
+                  <li><a href='#'>Item 4</a></li>
+                  
+               </ul>
+           </li>
+    <li><a href='#'>Categories</a>
+              
+             <ul>
+                  <li><a href='#'>Widgets</a></li>
+                  <li><a href='#'>Templates</a></li>
+                  <li><a href='#'>SEO</a></li>
+                  <li><a href='#'>Wordpress</a></li>
+                  <li><a href='#'>Blogger</a></li>
+                  <li><a href='#'>Customization</a></li>
+               </ul>
+           </li>
+             <li><a href='#'>Contact us</a>           
+           </li>
+         </ul>
+      </div>
+
+      <div id='wctopdropsoc'>
+         
+<a href='http://feeds.feedburner.com/iDapinder' target='_blank'><img alt='Subcribe to our RSS feeds' src='http://2.bp.blogspot.com/-ea9ILzszTF0/UR3ySvlxd0I/AAAAAAAABMQ/4QBrWHbt0FU/s1600/feed.png'/></a>
+<a href='http://www.facebook.com/iDapinder' target='_blank'><img alt='Join Us on Facebook' src='http://1.bp.blogspot.com/-3wW_EmAR24w/UR3tVFL5fFI/AAAAAAAABLc/RMS76XM5sK8/s1600/fbb.png'/></a>
+<a href='https://twitter.com/ramitsurana' target='_blank'><img alt='Follow us on Twitter' src='http://1.bp.blogspot.com/-wSCdvgK8Ctw/UR3tWusvgyI/AAAAAAAABL0/FY3nUvdlJx0/s1600/tww.png'/></a>
+<a href='https://plus.google.com/+RamitSurana96' target='_blank'><img alt='Add to Circles' src='http://1.bp.blogspot.com/-YWI0K2Ebh2Q/UR3tVS1gDhI/AAAAAAAABLk/8hYaD0Yur_k/s1600/gpp.png'/></a>
+
+      </div>
+   </div>
